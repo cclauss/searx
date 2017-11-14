@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Shared testing code."""
+from __future__ import print_function
 
 
 import os

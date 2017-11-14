@@ -1,3 +1,4 @@
+from __future__ import print_function
 from sys import argv, exit
 
 if not len(argv) > 1:

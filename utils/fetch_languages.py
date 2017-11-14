@@ -7,6 +7,7 @@
 # Output files (engines_languages.json and languages.py)
 # are written in current directory to avoid overwriting in case something goes wrong.
 
+from __future__ import print_function
 from requests import get
 from lxml.html import fromstring
 from json import loads, dump
